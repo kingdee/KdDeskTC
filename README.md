@@ -1,7 +1,11 @@
-# KdDeskTC 是基于 rustdesk 开源项目根据自身业务的需求的二次开发的远程协助工具。
+# KdDeskTC 
+是基于 rustdesk 开源项目结合自身业务需求二次开发的远程协助工具。
 
 
-## MICROSOFT 基础类库： KdDeskTC 项目概述
+
+# KdDeskTC 项目概述
+
+## MICROSOFT 基础类库：
 
 应用程序向导已为您创建了此 KdDeskTC 应用程序。此应用程序不仅介绍了使用 Microsoft 基础类的基本知识，而且是编写应用程序的起点。
 
