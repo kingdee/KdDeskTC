@@ -1,0 +1,289 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\KdDeskTC.rc2""  // 非 Microsoft Visual C++ 编辑过的资源\r\n"
+    "#include ""afxres.rc""         // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_COLUMNHEADER_SPAN   BITMAP                  "../../KTClient/KTClient/TzUI\\ListCtrlEx\\ColHdrSpan.bmp"
+IDB_COLUMNHEADER_START  BITMAP                  "../../KTClient/KTClient/TzUI\\ListCtrlEx\\ColHdrStart.bmp"
+IDB_COLUMNHEADER_END    BITMAP                  "../../KTClient/KTClient/TzUI\\ListCtrlEx\\ColHdrEnd.bmp"
+IDB_HORIZONTAL_SCROLLBAR_THUMB BITMAP                  "../../KTClient/KTClient/TzUI\\ListCtrlEx\\HorScrBarThumb.bmp"
+IDB_HORIZONTAL_SCROLLBAR_RIGHTARROW BITMAP                  "../../KTClient/KTClient/TzUI\\ListCtrlEx\\HorScrBarRArrow.bmp"
+IDB_HORIZONTAL_SCROLLBAR_SPAN BITMAP                  "../../KTClient/KTClient/TzUI\\ListCtrlEx\\HorScrBarSpan.bmp"
+IDB_HORIZONTAL_SCROLLBAR_LEFTARROW BITMAP                  "../../KTClient/KTClient/TzUI\\ListCtrlEx\\HorScrBarLArrow.bmp"
+IDB_VERTICLE_SCROLLBAR_UPARROW BITMAP                  "../../KTClient/KTClient/TzUI\\ListCtrlEx\\VerScrBarUpArrow.bmp"
+IDB_VERTICLE_SCROLLBAR_SPAN BITMAP                  "../../KTClient/KTClient/TzUI\\ListCtrlEx\\VerScrBarSpan.bmp"
+IDB_VERTICLE_SCROLLBAR_THUMB BITMAP                  "../../KTClient/KTClient/TzUI\\ListCtrlEx\\VerScrBarThumb.bmp"
+IDB_VERTICLE_SCROLLBAR_DOWNARROW BITMAP                  "../../KTClient/KTClient/TzUI\\ListCtrlEx\\VerScrBarDnArrow.bmp"
+IDB_VERTICLE_SCROLLBAR_TOP BITMAP                  "../../KTClient/KTClient/TzUI\\ListCtrlEx\\VerScrBarTop.bmp"
+IDB_VERTICLE_SCROLLBAR_BOTTOM BITMAP                  "../../KTClient/KTClient/TzUI\\ListCtrlEx\\VerScrBarBottom.bmp"
+IDB_BMP_SEPARATOR       BITMAP                  "res\\separator.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\KdDeskTC.ico"
+IDI_ICO_WIN             ICON                    "res\\win.ico"
+IDI_ICO_MAC             ICON                    "res\\mac.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_KDDESKTC_DIALOG DIALOGEX 0, 0, 430, 285
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "",IDC_BTN_CLS,404,0,10,11
+    PUSHBUTTON      "",IDC_BTN_MIN,389,0,10,11
+    LTEXT           "v1.1",IDC_LAB_TITLE,4,3,120,14,NOT WS_VISIBLE
+    PUSHBUTTON      "",IDC_BTN_LOGOLB,7,212,50,14
+    PUSHBUTTON      "Avatar",IDC_BTN_AVATAR,34,30,29,14
+    CTEXT           "xiaxingqiao",IDC_LAB_NICKNAME,9,62,80,12
+    PUSHBUTTON      "退出登录",IDC_BTN_LOGON,30,77,29,14
+    PUSHBUTTON      "    远程协助",IDC_BTN_RMTCTR,9,106,50,14
+    PUSHBUTTON      "    设备列表",IDC_BTN_DVCLST,9,134,50,14
+    PUSHBUTTON      "    基础设置",IDC_BTN_ADVSET,9,162,50,14
+    PUSHBUTTON      "",IDC_BTN_VLINE2,369,0,10,11
+    PUSHBUTTON      "",IDC_BTN_HLP,350,0,10,11
+    PUSHBUTTON      "",IDC_BTN_LOGOLB2,7,238,50,14,WS_DISABLED
+END
+
+IDD_DLG_LOGIN DIALOGEX 0, 0, 300, 230
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "",IDOK,55,162,190,14
+    EDITTEXT        IDC_EDT_USR,55,77,190,25,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDT_PWD,55,110,190,25,ES_AUTOHSCROLL
+    CTEXT           "金蝶·云账号登录",IDC_LAB_MSG,55,54,151,12
+    PUSHBUTTON      "",IDC_BTN_CLS,278,0,12,12
+    LTEXT           "v1.1",IDC_LAB_TITLE,4,3,140,15,NOT WS_VISIBLE
+    PUSHBUTTON      "立即注册",IDC_BTN_REGUSR,206,142,40,14,BS_LEFT
+    PUSHBUTTON      "忘记密码",IDC_BTN_FGTPWD,152,142,40,14,BS_RIGHT
+    CONTROL         "下次自动登录",IDC_CHK_AUTOLGN,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,55,145,82,10
+    PUSHBUTTON      "",IDC_BTN_VLINE3,257,0,12,12
+    PUSHBUTTON      "",IDC_BTN_HLP2,238,0,12,12
+    PUSHBUTTON      "《客户隐私》",IDC_BTN_PRI,198,191,40,14
+    PUSHBUTTON      "《用户协议》",IDC_BTN_AGR,138,191,40,14
+    CTEXT           "和",IDC_LAB_AGR2,187,192,10,10
+    PUSHBUTTON      "",IDC_BTN_VLINE4,202,145,6,12,WS_DISABLED
+    PUSHBUTTON      "",IDC_BTN_LOGOLB3,115,31,59,15,WS_DISABLED
+    CONTROL         "已阅读并同意",IDC_CHK_AGREE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,55,193,82,10
+END
+
+IDD_DLG_MENU DIALOGEX 0, 0, 116, 55
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "高级设置",IDC_BTN_SETUP,16,24,80,14,BS_LEFT
+    PUSHBUTTON      "打开主界面",IDC_BTN_OPEN,16,2,80,14,BS_LEFT
+    CONTROL         303,IDC_PIC_SEP1,"Static",SS_BITMAP,17,19,93,1
+END
+
+IDD_DLG_TRAYEX DIALOGEX 0, 0, 24, 13
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_BORDER
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+END
+
+IDD_DLG_MSGBOX DIALOGEX 0, 0, 250, 94
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,71,73,50,14
+    PUSHBUTTON      "取消",IDCANCEL,121,73,50,14
+    LTEXT           "信息提示",IDC_LAB_TITLE,3,4,222,16
+    PUSHBUTTON      "",IDC_BTN_CLS,231,0,12,13
+    LTEXT           "",IDC_LAB_INFO,4,30,243,37
+END
+
+IDD_DLG_TMPEX DIALOGEX 0, 0, 334, 203
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_LST_TMPEX,"SysListView32",LVS_SMALLICON | 
+                    LVS_ALIGNLEFT | WS_TABSTOP,45,21,43,94
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "CompanyName", "TODO: <公司名>"
+            VALUE "FileDescription", "TODO: <文件说明>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "KdDeskTC.exe"
+            VALUE "LegalCopyright", "TODO: (C) <公司名>。保留所有权利。"
+            VALUE "OriginalFilename", "KdDeskTC.exe"
+            VALUE "ProductName", "TODO: <产品名>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "翻译", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_KDDESKTC_DIALOG, DIALOG
+    BEGIN
+        RIGHTMARGIN, 428
+        BOTTOMMARGIN, 282
+    END
+
+    IDD_DLG_LOGIN, DIALOG
+    BEGIN
+        RIGHTMARGIN, 298
+        BOTTOMMARGIN, 223
+    END
+
+    IDD_DLG_MENU, DIALOG
+    BEGIN
+        RIGHTMARGIN, 112
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_DLG_TRAYEX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 17
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 6
+    END
+
+    IDD_DLG_MSGBOX, DIALOG
+    BEGIN
+        RIGHTMARGIN, 248
+        BOTTOMMARGIN, 87
+    END
+
+    IDD_DLG_TMPEX, DIALOG
+    BEGIN
+        RIGHTMARGIN, 331
+        BOTTOMMARGIN, 201
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\KdDeskTC.rc2"  // 非 Microsoft Visual C++ 编辑过的资源
+#include "afxres.rc"         // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
