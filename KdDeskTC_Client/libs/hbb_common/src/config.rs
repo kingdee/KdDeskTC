@@ -67,15 +67,12 @@ pub const RENDEZVOUS_SERVERS: &'static [&'static str] = &[
     "kdtc-bj.kingdee.com",
 ];
 
-pub const TEST1: &'static str = "1MsU4IV";
-pub const TEST2: &'static str = "kVn2luPwhB2eq";
-pub const TEST3: &'static str = "d5q72tzsEgnylWps2G";
-pub const TEST4: &'static str = "z2FXp3LyixJ07nQ";
+pub const TEST1: &'static str = "";
+pub const TEST2: &'static str = "";
+pub const TEST3: &'static str = "";
+pub const TEST4: &'static str = "";
 
 // added by fantacy.
-// MsU4IVn2luPwhB2eq72tzsEgnylWps2Gp3LyixJ07nQ=
-// MsU4IVn2luPwhB2eq72tzsEgnylWps2Gp3LyixJ07nQ=
-// pub const RS_PUB_KEY: &'static str = "xMxsxUx4xIxVxnx2xlxuxPxwxhxBx2xexqx7x2xtxzxsxExgxnxyxlxWxpxsx2xGxpx3xLxyxixxxJx0x7xnxQx=x";
 pub const RENDEZVOUS_PORT: i32 = 21116;
 pub const RELAY_PORT: i32 = 21117;
 
